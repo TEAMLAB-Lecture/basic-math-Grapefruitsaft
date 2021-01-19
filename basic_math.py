@@ -26,7 +26,7 @@ def get_greatest(number_list):
     """
     greatest_number = number_list[0]
     for i in number_list:
-        if greatest_number < number_list:
+        if greatest_number < i:
             greatest_number = i
     return greatest_number
 
