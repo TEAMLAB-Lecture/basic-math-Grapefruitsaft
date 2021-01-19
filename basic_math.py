@@ -106,8 +106,8 @@ def get_median(number_list):
     l.sort()
     size = len(l)
 
-    if len % 2 == 0:
-        median = (l[(len/2)-1]+l[len/2])/2
+    if size % 2 == 0:
+        median = (l[(size/2)-1]+l[size/2])/2
     else:
-        median = l[len/2]
+        median = l[size/2]
     return median
